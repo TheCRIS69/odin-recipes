@@ -53,16 +53,16 @@ body {
 
 
 
-/* TACOS PAGE */
+/* RECEPIES PAGES */
 
-.tacos-parent {
+.recepie-parent {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.tacos-child {
+.recepie-child {
     background-color: rgba(0, 143, 124, 0.5);
     height: auto;
     width: 70vh;
@@ -72,29 +72,30 @@ body {
 
 }
 
-.tacos-main {
+.recepie-main {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding: 15px;
 }
 
-.tacos-main h1 {
+.recepie-main h1 {
     font-size: 40px;
-    text-align: center;
     text-decoration: underline rgb(255, 255, 255);
     font-family:'Courier New', Courier, monospace;
+    text-align: center;
 }
-.tacos-main img {
+.recepie-main img {
     height: 150px;
     width: 200px;
 }
 
-.tacos-description, .tacos-ingredients, .tacos-steps {
+.recepie-description, .recepie-ingredients, .recepie-steps {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 10px;
-
 }
+
+
+
