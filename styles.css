@@ -95,7 +95,28 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 10px;
+    font-size: 17px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.recepie-description h2, .recepie-ingredients h3, .recepie-steps h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 25px;
+}
 
+.recepie-description p {
+    text-align: center;
+}
+
+.recepie-ingredients ul li {
+    list-style-type: square;
+}
+
+.recepie-steps ol li {
+    list-style-type: upper-roman;
+    text-align: center;
+    padding: 5px;
+}
 
