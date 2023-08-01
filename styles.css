@@ -1,3 +1,6 @@
+
+/* MAIN PAGE */
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +22,7 @@ body {
 
 .content {
     background-color: rgb(0, 143, 124);
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 15px;
     padding: 25px;
 }
@@ -45,5 +48,53 @@ body {
 }
 
 .recepies-list a:hover {
-    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* TACOS PAGE */
+
+.tacos-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tacos-child {
+    background-color: rgba(0, 143, 124, 0.5);
+    height: auto;
+    width: 70vh;
+    border: 2px dashed rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 15px;
+
+}
+
+.tacos-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.tacos-main h1 {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline rgb(255, 255, 255);
+    font-family:'Courier New', Courier, monospace;
+}
+.tacos-main img {
+    height: 150px;
+    width: 200px;
+}
+
+.tacos-description, .tacos-ingredients, .tacos-steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+
 }
