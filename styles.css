@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(180deg, rgb(0, 199, 166), rgb(0, 92, 77));
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content {
+    background-color: rgb(0, 143, 124);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.mainpage-title {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline rgb(0, 0, 0);
+    text-align: center;
+}
+
+.recepies-list {
+    list-style-type: none;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.recepies-list a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.recepies-list a:hover {
+    font-size: 30px;
+}
